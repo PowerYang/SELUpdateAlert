@@ -6,12 +6,12 @@
     },
     {
       "idiom" : "universal",
-      "filename" : "VersionUpdate_Icon@2x.png",
+      "filename" : "close_update@2x.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "VersionUpdate_Icon@3x.png",
+      "filename" : "close_update@3x.png",
       "scale" : "3x"
     }
   ],

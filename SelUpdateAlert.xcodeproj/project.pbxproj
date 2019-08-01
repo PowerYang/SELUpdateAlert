@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		392A13D322F28A8E001FBEA0 /* down-up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 392A13D122F28A8E001FBEA0 /* down-up@3x.png */; };
+		392A13D422F28A8E001FBEA0 /* down-up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 392A13D222F28A8E001FBEA0 /* down-up@2x.png */; };
+		392A13D722F28A9B001FBEA0 /* close_update@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 392A13D522F28A9B001FBEA0 /* close_update@2x.png */; };
+		392A13D822F28A9B001FBEA0 /* close_update@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 392A13D622F28A9B001FBEA0 /* close_update@3x.png */; };
 		EDAFC6DB202AFBE000BB9CC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAFC6DA202AFBE000BB9CC2 /* AppDelegate.m */; };
-		EDAFC6E3202AFBE000BB9CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDAFC6E2202AFBE000BB9CC2 /* Assets.xcassets */; };
 		EDAFC6E6202AFBE000BB9CC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDAFC6E4202AFBE000BB9CC2 /* LaunchScreen.storyboard */; };
 		EDAFC6E9202AFBE000BB9CC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAFC6E8202AFBE000BB9CC2 /* main.m */; };
 		EDAFC6FC202AFFAF00BB9CC2 /* SELAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAFC6FB202AFFAF00BB9CC2 /* SELAlertViewController.m */; };
@@ -17,10 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		392A13D122F28A8E001FBEA0 /* down-up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down-up@3x.png"; sourceTree = "<group>"; };
+		392A13D222F28A8E001FBEA0 /* down-up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down-up@2x.png"; sourceTree = "<group>"; };
+		392A13D522F28A9B001FBEA0 /* close_update@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_update@2x.png"; sourceTree = "<group>"; };
+		392A13D622F28A9B001FBEA0 /* close_update@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_update@3x.png"; sourceTree = "<group>"; };
 		EDAFC6D6202AFBE000BB9CC2 /* SelUpdateAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelUpdateAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDAFC6D9202AFBE000BB9CC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDAFC6DA202AFBE000BB9CC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EDAFC6E2202AFBE000BB9CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDAFC6E5202AFBE000BB9CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDAFC6E7202AFBE000BB9CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDAFC6E8202AFBE000BB9CC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,7 +72,6 @@
 				EDAFC6DA202AFBE000BB9CC2 /* AppDelegate.m */,
 				EDAFC6F0202AFC3400BB9CC2 /* Main */,
 				EDAFC6EF202AFC2200BB9CC2 /* UpdateAlert */,
-				EDAFC6E2202AFBE000BB9CC2 /* Assets.xcassets */,
 				EDAFC6E4202AFBE000BB9CC2 /* LaunchScreen.storyboard */,
 				EDAFC6E7202AFBE000BB9CC2 /* Info.plist */,
 				EDAFC6E8202AFBE000BB9CC2 /* main.m */,
@@ -77,6 +82,10 @@
 		EDAFC6EF202AFC2200BB9CC2 /* UpdateAlert */ = {
 			isa = PBXGroup;
 			children = (
+				392A13D522F28A9B001FBEA0 /* close_update@2x.png */,
+				392A13D622F28A9B001FBEA0 /* close_update@3x.png */,
+				392A13D222F28A8E001FBEA0 /* down-up@2x.png */,
+				392A13D122F28A8E001FBEA0 /* down-up@3x.png */,
 				EDAFC6FD202AFFE600BB9CC2 /* SELUpdateAlertConst.h */,
 				EDAFC6FE202AFFE600BB9CC2 /* SELUpdateAlertConst.m */,
 				EDAFC700202B3F9A00BB9CC2 /* SELUpdateAlert.h */,
@@ -152,8 +161,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392A13D822F28A9B001FBEA0 /* close_update@3x.png in Resources */,
+				392A13D722F28A9B001FBEA0 /* close_update@2x.png in Resources */,
+				392A13D322F28A8E001FBEA0 /* down-up@3x.png in Resources */,
 				EDAFC6E6202AFBE000BB9CC2 /* LaunchScreen.storyboard in Resources */,
-				EDAFC6E3202AFBE000BB9CC2 /* Assets.xcassets in Resources */,
+				392A13D422F28A8E001FBEA0 /* down-up@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 28XRZ273MD;
+				DEVELOPMENT_TEAM = 5DVC733RKD;
 				INFOPLIST_FILE = SelUpdateAlert/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -310,7 +322,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 28XRZ273MD;
+				DEVELOPMENT_TEAM = 5DVC733RKD;
 				INFOPLIST_FILE = SelUpdateAlert/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
